@@ -35,8 +35,6 @@ Format your output such that your leaderboard prints looking (at least approxomi
 --------------------------------------------------
 ```
 
-##### Files
-  * learderboard/learderboard.js
 
 
 ### It's Election Season!
