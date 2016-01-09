@@ -36,4 +36,27 @@ Format your output such that your leaderboard prints looking (at least approxomi
 ```
 
 ##### Files
-  * exercises/learderboard.js
+  * learderboard/learderboard.js
+
+
+### It's Election Season!
+
+The Foobarnian Ministry of Elections has asked us to tally all the votes for the
+next Presidental Election. Fortunately, the requirements are very simple since
+the Foobarnians are highly organized. We only need to write one function in
+JavaScript.
+
+The candidates are identified by positive integers, and the votes will be
+provided to us as an unsorted Array of those integers.
+
+  1. If any candidate reaches a majority of votes, the function should return a
+single-element Array with the integer representing the winning candidate.
+  2. If there is no majority winner, then a runoff election will be held among the 3
+candidates that finished with the most votes. So in that case, our function
+needs to return an array of integers for the top 3 candidates, to identify
+candidates that qualified for the runoff.
+  3. Also in the runoff case, if there are multiple 3rd place candidates in a tie,
+then all candidates who tied for third place will qualify for the runoff. So in
+that situation, an Array with more than three integers may need to be returned.
+
+The results do not have to be sorted in any special order.
