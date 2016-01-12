@@ -58,3 +58,21 @@ then all candidates who tied for third place will qualify for the runoff. So in
 that situation, an Array with more than three integers may need to be returned.
 
 The results do not have to be sorted in any special order.
+
+###Leap in JavaScript
+Write a program that will take a year and report if it is a leap year.
+1997 is not a leap year, but 1996 is. 1900 is not a leap year, but 2000 is.
+
+###Word count
+Write a program that given a phrase can count the occurrences of each word in that phrase.
+
+###Phone Number
+Write a program that cleans up user-entered phone numbers so that they can be sent SMS messages.
+
+The rules are as follows:
+
+If the phone number is less than 10 digits assume that it is bad number
+If the phone number is 10 digits assume that it is good
+If the phone number is 11 digits and the first number is 1, trim the 1 and use the last 10 digits
+If the phone number is 11 digits and the first number is not 1, then it is a bad number
+If the phone number is more than 11 digits assume that it is a bad number
